@@ -1,0 +1,9 @@
+version: '3'
+
+services:
+
+  postgresexampledocker:
+    image: postgresexampledocker
+    build:
+      context: .
+      dockerfile: PostgresExampleDocker\Dockerfile
